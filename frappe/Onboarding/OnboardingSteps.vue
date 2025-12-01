@@ -2,10 +2,10 @@
   <div class="flex flex-col justify-center items-center gap-1 mt-4 mb-7">
     <component :is="logo" class="size-10 shrink-0 rounded mb-4" />
     <div class="text-base font-medium">
-      {{ 'Welcome to ' + title }}
+      {{ 'Welcome to ' + 'Take IT Help Desk' }}
     </div>
     <div class="text-p-base font-normal">
-      {{ `${stepsCompleted}/${totalSteps} steps completed` }}
+      {{ `${stepsCompleted}/${totalSteps} steps completed MK` }}
     </div>
   </div>
   <div class="flex flex-col gap-2.5 overflow-hidden">
