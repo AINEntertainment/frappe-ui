@@ -14,7 +14,7 @@ features.
 <Story class="gap-4">
   <div class="w-full sm:w-1/2 space-y-4">
     <Input label="Full Name" placeholder="Jane Doe" v-model="fullName" />
-    <Input label="Email" type="email" placeholder="jane@example.com" icon-left="mail" />
+    <Input label="Email" type="email" placeholder="ekram@example.com" icon-left="mail" />
     <Input label="Country" type="select" :options="['India', 'Not India']" icon-left="globe" />
     <Input label="Bio" type="textarea" />
     <Input label="I have read terms and conditions" type="checkbox" />
@@ -24,8 +24,8 @@ features.
 ```vue
 <template>
   <Input label="Full Name" placeholder="Jane Doe" v-model="fullName" />
-  <Input label="Email" type="email" placeholder="jane@example.com" />
-  <Input label="Country" type="select" :options="['India', 'Not India']" />
+  <Input label="Email" type="email" placeholder="ekram@example.com" />
+  <Input label="Country" type="select" :options="['Egypt', 'Not Egypt']" />
   <Input label="Bio" type="textarea" />
   <Input label="I have read terms and conditions" type="checkbox" />
 </template>
